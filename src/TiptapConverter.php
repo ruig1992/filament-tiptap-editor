@@ -60,9 +60,6 @@ class TiptapConverter
             new Extensions\TextAlign([
                 'types' => ['heading', 'paragraph'],
             ]),
-            new Extensions\ClassExtension,
-            new Extensions\IdExtension,
-            new Extensions\StyleExtension,
             new Extensions\Color,
             new CodeBlockHighlight,
             new Nodes\ListItem,

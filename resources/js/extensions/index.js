@@ -20,8 +20,11 @@ export { GridBuilderColumn } from "./GridBuilder/GridBuilderColumn";
 export { DragAndDropExtension } from "./DragAndDrop.js";
 export { TiptapBlock } from "./TiptapBlock.js";
 export { MergeTag } from "./MergeTag.js";
-export { ClassExtension } from "./ClassExtension.js";
-export { IdExtension } from "./IdExtension.js";
-export { StyleExtension } from "./StyleExtension.js";
+/**
+ * This is necessary to prevent third-party styles from being inserted with text from another source.
+ */
+// export { ClassExtension } from "./ClassExtension.js";
+// export { IdExtension } from "./IdExtension.js";
+// export { StyleExtension } from "./StyleExtension.js";
 export { CustomMention } from "./Mention/Mention.js";
 export { StatePath } from './StatePath.js';

@@ -51,9 +51,6 @@ import {
     Video,
     TiptapBlock,
     DragAndDropExtension,
-    ClassExtension,
-    IdExtension,
-    StyleExtension,
     CustomMention,
     StatePath,
 } from "./extensions";
@@ -214,9 +211,6 @@ export default function tiptap({
                 History,
                 TextStyle,
                 DragAndDropExtension,
-                ClassExtension,
-                IdExtension,
-                StyleExtension,
                 StatePath.configure({
                     statePath: statePath
                 }),
